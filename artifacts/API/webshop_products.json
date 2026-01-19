@@ -1,0 +1,397 @@
+{
+	"id": "d23203b8-4613-4691-8c89-9bb1f7a86ce6",
+	"createdAt": "2026-01-09T12:46:50.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "95642f25-4db4-4024-a9dd-76004ce6bcb8",
+			"path": "/webshop_products",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": "200",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "webshop_products"
+						}
+					]
+				},
+				{
+					"status": "400",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "7a0f31d6-4e50-47f2-aa8f-65c4ed28ecc7",
+			"path": "/webshop_products",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "webshop_products"
+				}
+			],
+			"responses": [
+				{
+					"status": "200",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "webshop_products"
+						}
+					]
+				},
+				{
+					"status": "400",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "19a1f639-816e-4aa1-9e14-fbe4e75865b4",
+			"path": "/webshop_products",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "webshop_products"
+				}
+			],
+			"responses": [
+				{
+					"status": "200",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "webshop_products"
+						}
+					]
+				},
+				{
+					"status": "400",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "b3ad101b-108d-4321-831e-87e3fc6c85da",
+			"path": "/webshop_products",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": "200",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "webshop_products"
+						}
+					]
+				},
+				{
+					"status": "400",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "362b1c7a-4149-4455-a463-59387d419b0d",
+			"path": "/webshop_products/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": "200",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": "400",
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "99955297-b466-4c17-bf0b-6a552bf93f02",
+			"name": "webshop_products",
+			"properties": [
+				{
+					"id": "643d7d40-5a94-4243-b27d-08f751977187",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "50d243a9-9490-42bb-b142-e6f7e6ab807b",
+					"parent": "",
+					"name": "name",
+					"objectType": "string"
+				},
+				{
+					"id": "f935fd28-6c4f-487a-9e9c-58623d706cf9",
+					"parent": "",
+					"name": "subtitle",
+					"objectType": "string"
+				},
+				{
+					"id": "1e6c94c2-44d1-4af4-b382-0c37796c3e68",
+					"parent": "",
+					"name": "description",
+					"objectType": "string"
+				},
+				{
+					"id": "438714a2-5ad2-4564-bc2f-5cce60b103b3",
+					"parent": "",
+					"name": "category",
+					"objectType": "string"
+				},
+				{
+					"id": "990db8ba-a44d-4a5c-9b4d-03b8628d792e",
+					"parent": "",
+					"name": "price",
+					"objectType": "number"
+				},
+				{
+					"id": "0697c5eb-cdb1-4809-9159-743946b40ae3",
+					"parent": "",
+					"name": "compareAt",
+					"objectType": "number"
+				},
+				{
+					"id": "4a1e5ccf-e9fd-41b1-8e11-2f11aa8fa2db",
+					"parent": "",
+					"name": "currency",
+					"objectType": "integer"
+				},
+				{
+					"id": "79f28624-bf51-4f70-b436-14d75ad321c7",
+					"parent": "",
+					"name": "rating",
+					"objectType": "number"
+				},
+				{
+					"id": "9d388720-e573-4dab-8189-e557d4c1838c",
+					"parent": "",
+					"name": "badge",
+					"objectType": "string"
+				},
+				{
+					"id": "fa7d42fd-64e6-4645-9b66-bc6abf7dd217",
+					"parent": "",
+					"name": "isFeatured",
+					"objectType": "boolean"
+				},
+				{
+					"id": "19a3bbf2-4773-4b05-bcaa-9d0a48205898",
+					"parent": "",
+					"name": "imageUrl",
+					"objectType": "string"
+				},
+				{
+					"id": "b97512b2-b850-4d81-b893-bdb428d9dc5a",
+					"parent": "",
+					"name": "isActive",
+					"default": true,
+					"objectType": "boolean"
+				},
+				{
+					"id": "2b34e62a-7565-4362-96b5-7e4bb3c9a98e",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "0365fe81-42be-4505-8d8d-55b8aef72db6",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "d773bdf9-66cc-4056-bcc5-5c25250accd6",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "d588b8b8-5f26-4cc8-beae-901e35311383",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "29518f7d-d4cb-4fcd-bd23-cb1273b217ef",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "dbb3a821-5dd8-4708-86d2-518a0d1b12f9",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "c6596d4d-d732-4c18-a74a-65d45dbe7750",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "92c5a917-24cc-4fcf-82cd-0b06a43df156",
+			"name": "count",
+			"properties": [
+				{
+					"id": "e7bf060f-2527-4bca-b03f-51d9bdc70f13",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "webshop_products",
+	"endpoint": "/api/entity",
+	"ver": "26.01.09.1346",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"enableScriptEditor": false,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "55670cac-8a0d-4a28-b08c-9843fdbb1132",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

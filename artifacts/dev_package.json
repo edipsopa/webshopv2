@@ -1,0 +1,87 @@
+{
+	"id": "55670cac-8a0d-4a28-b08c-9843fdbb1132",
+	"createdAt": "2026-01-09T09:49:01.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/edipsopa/webshopv2",
+		"branch": "master"
+	},
+	"name": "webshop",
+	"description": null,
+	"ver": "26.01.19.1557",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
+	"apps": [
+		{
+			"id": "d1cf1848-9eda-4d5b-8220-2010776984af",
+			"application": "webshop_app",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "d23203b8-4613-4691-8c89-9bb1f7a86ce6",
+			"name": "webshop_products",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "7c915d91-f038-4bd8-958b-d769b889cc65",
+			"name": "webshop_products",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"theme_generator": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"tile_layout": [],
+	"category": [],
+	"tilegroup_layout": [],
+	"launchpad": [],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"i18n": [
+		{
+			"id": "fdd45fb7-927b-40a7-ad7d-cb023d3424b8",
+			"name": "webshop_app",
+			"description": null
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": [],
+	"webapp": [],
+	"ui5_control": [],
+	"ai_agent": [],
+	"ai_model": [],
+	"ai_prompt": [],
+	"ai_tool": [],
+	"ai_guardrail": [],
+	"path_rewrite": [],
+	"vault": []
+}

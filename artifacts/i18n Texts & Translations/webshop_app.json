@@ -1,0 +1,23 @@
+{
+	"id": "fdd45fb7-927b-40a7-ad7d-cb023d3424b8",
+	"createdAt": "2026-01-18T16:32:52.000Z",
+	"createdBy": "admin",
+	"attributes": [],
+	"locales": [
+		{
+			"isoCode": "EN"
+		}
+	],
+	"name": "webshop_app",
+	"description": null,
+	"fallbackLocale": "EN",
+	"application": "webshop_app",
+	"ver": "26.01.19.1529",
+	"package": "55670cac-8a0d-4a28-b08c-9843fdbb1132",
+	"active": true,
+	"deleted": false,
+	"baseModelId": null,
+	"enhancedBy": [],
+	"baseModel": null,
+	"apps": []
+}

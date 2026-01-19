@@ -1,0 +1,117 @@
+{
+	"id": "7c915d91-f038-4bd8-958b-d769b889cc65",
+	"createdAt": "2026-01-09T12:06:39.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "6d4fc95a-6473-4e64-e1b5-d735997d0885",
+			"fieldName": "pr_id",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "579a120e-48f5-4a43-e605-49e1578b2adf",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "79fe9e97-378e-42e7-c7ab-6c07793108f1",
+			"fieldName": "subtitle",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6e584d5e-4f8b-4a64-ffbf-707ad35818be",
+			"fieldName": "description",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "34b9be07-05ae-4391-cc92-ab6ea05f185b",
+			"fieldName": "category",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "6e5df981-db02-4c87-d115-5ae0ce6487f7",
+			"fieldName": "price",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"precision": "10",
+			"scale": "2"
+		},
+		{
+			"id": "ecab0af2-e958-41c7-9952-29f3027f9d56",
+			"fieldName": "compareAt",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"precision": "10",
+			"scale": "2"
+		},
+		{
+			"id": "705e7b1d-1432-4384-8a96-c421d22461ce",
+			"fieldName": "currency",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "2a1e9a04-fbec-43b4-acc1-56a536527039",
+			"fieldName": "rating",
+			"fieldType": "decimal",
+			"isUnique": false,
+			"isNullable": true,
+			"precision": "2",
+			"scale": "1"
+		},
+		{
+			"id": "da8c30ae-35a4-4d9a-84aa-8cf449e99fb1",
+			"fieldName": "badge",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "80b7363e-507e-44c3-96f1-2bb160ebaea7",
+			"fieldName": "isFeatured",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b600fbd4-9cca-4dc5-8a64-8dd9ec7c432e",
+			"fieldName": "imageUrl",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d0f814c0-4c57-422b-e30b-e3626414c364",
+			"fieldName": "isActive",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true,
+			"default": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"vectorStoreConfig": {},
+	"name": "webshop_products",
+	"description": null,
+	"ver": "26.01.19.1537",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "55670cac-8a0d-4a28-b08c-9843fdbb1132",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}
