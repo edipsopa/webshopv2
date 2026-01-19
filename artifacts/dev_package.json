@@ -16,8 +16,8 @@
 	"roles": [],
 	"apps": [
 		{
-			"id": "d1cf1848-9eda-4d5b-8220-2010776984af",
-			"application": "webshop_app",
+			"id": "aafeb13f-5b0a-4ad7-bee4-16032673d697",
+			"application": "dxpdemo_webshopv2",
 			"title": "",
 			"description": ""
 		}
@@ -63,13 +63,7 @@
 	"script_scheduler": [],
 	"wf_definition": [],
 	"connector": [],
-	"i18n": [
-		{
-			"id": "fdd45fb7-927b-40a7-ad7d-cb023d3424b8",
-			"name": "webshop_app",
-			"description": null
-		}
-	],
+	"i18n": [],
 	"events": [],
 	"code_snippets": [],
 	"wf_determination": [],

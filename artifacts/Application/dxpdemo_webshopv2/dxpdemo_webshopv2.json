@@ -1,6 +1,6 @@
 {
-	"id": "d1cf1848-9eda-4d5b-8220-2010776984af",
-	"createdAt": "2026-01-18T16:32:33.000Z",
+	"id": "aafeb13f-5b0a-4ad7-bee4-16032673d697",
+	"createdAt": "2026-01-19T15:08:08.000Z",
 	"createdBy": "admin",
 	"objects": [
 		{
@@ -3874,7 +3874,7 @@
 	],
 	"componentInterface": [],
 	"ver": "26.01.19.1529",
-	"application": "webshop_app",
+	"application": "dxpdemo_webshopv2",
 	"title": "",
 	"description": "",
 	"enableFileStorage": false,
@@ -3899,7 +3899,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": "file:///compiledCss.css",
+	"compiledCss": null,
 	"header": "",
 	"manifest": "",
 	"globalScript": null,
