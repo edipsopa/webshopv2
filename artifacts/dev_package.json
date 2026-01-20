@@ -8,7 +8,7 @@
 	},
 	"name": "webshop",
 	"description": null,
-	"ver": "26.01.19.1557",
+	"ver": "26.01.19.1609",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
@@ -63,7 +63,13 @@
 	"script_scheduler": [],
 	"wf_definition": [],
 	"connector": [],
-	"i18n": [],
+	"i18n": [
+		{
+			"id": "a115a9b1-970b-46fb-8822-1d244676c805",
+			"name": "dxpdemo_webshopv2",
+			"description": null
+		}
+	],
 	"events": [],
 	"code_snippets": [],
 	"wf_determination": [],

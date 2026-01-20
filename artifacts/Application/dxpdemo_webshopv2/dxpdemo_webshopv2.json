@@ -3873,7 +3873,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.01.19.1529",
+	"ver": "26.01.20.2013",
 	"application": "dxpdemo_webshopv2",
 	"title": "",
 	"description": "",
@@ -3899,7 +3899,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "file:///css.css",
-	"compiledCss": null,
+	"compiledCss": "file:///compiledCss.css",
 	"header": "",
 	"manifest": "",
 	"globalScript": null,
